@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'OpenSans';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(./OpenSans/OpenSans-SemiBold.woff2) format("woff2"),
+         url(./OpenSans/OpenSans-SemiBold.woff) format("woff"),
+         url(./OpenSans/OpenSans-SemiBold.ttf) format("ttf");
+  }
+
+@font-face {
+    font-family: 'OpenSans';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./OpenSans/OpenSans-Regular.woff2) format("woff2"),
+         url(./OpenSans/OpenSans-Regular.woff) format("woff"),
+         url(./OpenSans/OpenSans-Regular.ttf) format("ttf");
+}

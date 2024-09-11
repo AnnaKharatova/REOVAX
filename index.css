@@ -1,0 +1,249 @@
+@import url(./fonts/fonts.css);
+
+.page {
+  background-color: #FFFFFF;
+  font-family: 'OpenSans', Arial, sans-serif;
+  margin: 0 auto;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+.page__container {
+  max-width: 1920px;
+  min-width: 1920px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.header__main {
+  border-bottom: 1px solid #E8E8E8;
+  display: flex;
+  margin-top: 16px;
+  align-items: center;
+  padding: 0 0 15px 312px;
+}
+
+.header__logo-time {
+  color: #1F1F1F;
+  opacity: 0.8;
+  margin: 0;
+  font-size: 12px;
+}
+
+.header__search-input {
+  background-color: #FFF7F3;
+  border-radius: 100px;
+  border: none;
+  padding: 18px 0 16px 68px;
+  background-image: url(./images/search.svg);
+  background-position: 29px;
+  background-repeat: no-repeat;
+  margin-left: 40px;
+  outline: none;
+  max-width: 150px;
+}
+
+.header__search-input::placeholder {
+  font-family: 'OpenSans';
+  color: #F95707;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.header__link {
+  padding-left: 95px;
+  color: #105720;
+  font-size: 16px;
+  font-weight: 900;
+  padding-right: 100px;
+}
+
+.header__social-group {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+}
+
+.header__social-icon {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__contacts {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 43px;
+}
+
+.header__phone {
+  margin-top: 0;
+  margin-bottom: 4px;
+  text-decoration: none;
+  color: #1F1F1F;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.header__mail {
+  text-decoration: none;
+  color: #1F1F1F;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.button__no-background {
+  font-family: 'OpenSans';
+  padding: 11px 32px;
+  border: 1px solid #F95707;
+  border-radius: 100px;
+  color: #F95707;
+  background-color: inherit;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.button__no-background:hover {
+  opacity: 0.8;
+}
+
+.header__nav {
+  margin-top: 22px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #E8E8E8;
+  gap: 112px;
+  padding-left: 312px;
+  margin-bottom: 0;
+}
+
+.header__nav-item {
+  padding-bottom: 23px;
+  color: #4C4C4C;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header__nav-item:hover {
+  color: #F95707;
+  border-bottom: 2px solid #F95707;
+}
+
+.intro {
+  background-color: #F3F7F4;
+  padding-left: 312px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.intro__main {
+  max-width: 515px;
+  margin-top: 70px;
+}
+
+.intro__title {
+  color: #1F1F1F;
+  font-weight: 900;
+  font-size: 48px;
+  margin: 0;
+  padding-top: 28px;
+}
+
+.intro__span {
+  color: #105720;
+}
+
+.intro__buttons {
+  list-style: none;
+  margin: 52px 0 72px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 13px;
+}
+
+.intro__video {
+  margin: 50px -7px 0 55px;
+}
+
+.button__with-background {
+  color: #FFFFFF;
+  background-color: #F95707;
+}
+
+.section {
+  padding: 0 312px;
+}
+
+.preferences {
+  list-style: none;
+  padding: 62px 0 100px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  margin: 0;
+}
+
+.preferences__item {
+  box-sizing: border-box;
+  border: 1px solid #E8E8E8;
+  border-radius: 15px;
+  padding: 12px 40px 22px 29px;
+  width: 425px;
+}
+
+.preferences__title {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.preferences__title-text {
+  font-size: 20px;
+  font-weight: 900;
+  color: #1F1F1F;
+}
+
+.preferences__text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1F1F1F;
+  margin: 0;
+}
+
+.about {
+  border-top: 2px solid #F95707;
+  border-bottom: 2px solid #F95707;
+  padding: 20px 0 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 252px;
+}
+
+.about__title {
+  margin-top: 20px;
+  font-size: 42px;
+  font-weight: 900;
+  color: #1F1F1F;
+}
+
+.about__text {
+  color: #1F1F1F;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 22px 0 33px;
+}
